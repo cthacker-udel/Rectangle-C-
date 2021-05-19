@@ -67,6 +67,16 @@ Rect::Rect(int newLength, int newWidth, int newArea){
 
 }
 
+Rect Rect::operator+(Rect rect2){
+
+		Rect newRect;
+		newRect.length = length + rect2.length;
+		newRect.width = width + rect2.width;
+		newRect.area = area + rect2.area;
+		return newRect;
+
+}
+
 
 
 

@@ -38,5 +38,7 @@ public:
 
 	void setArea(int);
 
+	Rect operator+(Rect rect2);
+
 
 };
