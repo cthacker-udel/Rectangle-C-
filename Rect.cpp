@@ -52,5 +52,22 @@ area = newArea;
 
 }
 
+Rect::Rect(int newLength, int newWidth){
+
+	length = newLength;
+	width = newWidth;
+	area = length * width;
+}
+
+Rect::Rect(int newLength, int newWidth, int newArea){
+
+	length = newLength;
+	width = newWidth;
+	area = newArea;
+
+}
+
+
+
 
 

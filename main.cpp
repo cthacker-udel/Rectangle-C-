@@ -7,4 +7,12 @@
 
 
 
+int main(void){
+
+	/*****************************/
+	// Creating Rectangle instance
+
+
+}
+
 
